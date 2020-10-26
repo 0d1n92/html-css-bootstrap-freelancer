@@ -42,9 +42,8 @@ label {
 
 /***MAIN-CLOSE***/
 /* responsive */
-@media (min-width: 992px ) and (max-width: 768px) {
-  #portfolio div.row > div[class*="col-"]:not( :last-child
-    ) {
-    margin-right: 15px ;
-  }
+/* @media (min-width: 768px ) and (max-width: 992px) {
+  #portfolio div.row > div[class*="col-"]:not( :last-child ) {
+    margin-right: 10px ;
+  } */
 }
