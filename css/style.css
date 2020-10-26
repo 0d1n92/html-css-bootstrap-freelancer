@@ -41,3 +41,10 @@ label {
 }
 
 /***MAIN-CLOSE***/
+/* responsive */
+@media (min-width: 992px ) and (max-width: 768px) {
+  #portfolio div.row > div[class*="col-"]:not( :last-child
+    ) {
+    margin-right: 15px ;
+  }
+}
