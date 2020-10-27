@@ -85,8 +85,8 @@ span.divider_custome_line + span::after {
 }
 .btn_outline_white:hover {
   color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa !important;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa !important;
 }
 
 .btn_green {
