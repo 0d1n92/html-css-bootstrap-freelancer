@@ -13,7 +13,6 @@
     <header class="bg_green">
       <nav class="navbar bg_darkblu">
           <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-        
       </nav>
       <!-- start cotainer -->
       <section id="start" class="container">
@@ -61,31 +60,38 @@
     <!-- /container portfolio -->
     <!-- container about -->
     <section id="about" class="bg_green">
-      <div class="container">
-        <h2 class="text-uppercase">about</h2>
-        <div class="ricamo">
-          <span class="divider_custome_line bg_white"></span>
-          <span></span>
-          <span class="divider_custome_line bg_white"></span>
-        </div>
-        <div id="about_items" class="row">
-          <div class="col-xs-12 col-sm-6">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        <div class="container">
+          <h2 class="text-uppercase">about</h2>
+          <div class="ricamo">
+            <span class="divider_custome_line bg_white"></span>
+            <span></span>
+            <span class="divider_custome_line bg_white"></span>
           </div>
-          <div class="col-xs-12 col-sm-6">
-            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          <div id="about_items" class="row">
+            <div class="col-xs-12 col-sm-6">
+              <p class="padding_50_left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p class="padding_50_right">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
           </div>
-        </div>
-        <a class="btn btn-lg btn-success " href="#">Download</a>
+          <a class="btn btn-lg btn_outline_white glyphicon glyphicon-save
+  " href="#"><span>Download</span></a>
+
       </div>
     </section>
     <!--/container about -->
     <!-- container form -->
     <section id="form_contact" class="container">
-      <h2>Contact me</h2>
-      <form class="" action="index.html" method="post">
+      <h2 class="text-uppercase">Contact me</h2>
+      <div class="ricamo">
+        <span class="divider_custome_line bg_black"></span>
+        <span></span>
+        <span class="divider_custome_line bg_black"></span>
+      </div>
+      <form class="contact_me" action="index.html" method="post">
         <label for="name">Name</label>
-        <input type="text" id="name" name="Name" value="" placeholder="name">
+        <input type="text" id="name" name="Name" value="" placeholder="Name">
         <label for="email">Email Address</label>
         <input type="text" id="email" name="email" value="" placeholder="Email Address">
         <label for="phone">Phone Number:</label>
@@ -94,7 +100,7 @@
          required>
          <label for="message">Message</label>
         <textarea id="message" name="message" placeholder="Message"></textarea>
-        <input type="submit" value="Send">
+        <input class="btn btn-lg btn_green" type="submit" value="Send">
       </form>
     </section>
     <!--/container form -->

@@ -1,5 +1,10 @@
 /****font***/
+/* Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /****font-CLOSE***/
 /***debug***/
 .debug header.container {
@@ -16,8 +21,11 @@
 body {
   text-align: center;
   font-size: 16px;
+  font-family:'Roboto','Lato', sans-serif !important;
 }
-
+a span{
+  font-family:'Lato', 'Roboto', sans-serif !important;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700 !important;
   font-family: 'Montserrat', sans-serif !important;
@@ -50,6 +58,33 @@ section#about, section#form_contact, section#start, section#portfolio {
 .ricamo {
   margin-bottom: 20px;
 }
+
+.btn_outline_white {
+  color: #f8f9fa;
+  border: 2px solid #f8f9fa !important;
+  letter-spacing:0.4px;
+}
+.btn_outline_white span {
+  margin-left: 5px;
+}
+.btn_outline_white:hover {
+  color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa !important;
+}
+
+.btn_green {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: white;
+}
+.btn_green:hover {
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+}
+
+
 /***HEADER***/
 header, header a {
   color: white;
@@ -104,17 +139,35 @@ span.divider_custome_line + span::after {
 /***section about***/
 #about{
   color: white;
+  min-height: 300px;
+}
+
+.padding_50_right{
+  padding-right: 50px;
+}
+
+.padding_50_left {
+  padding-left: 50px;
 }
 #about_items div[class*="col-"] > p {
-  padding: 0 30px;
   text-align: left;
 }
+
 /***section about-CLOSE***/
+.contact_me input:not([type="submit"]),.contact_me textarea{
+  width: 100%;
+  border:0;
+  border-bottom: 1px solid grey;
+}
+[type="submit"] {
+  float: left;
+}
+ form.contact_me{
+  line-height: 50px;
+  padding: 0 50px;
+}
+.contact_me textarea {
+  min-height: 200px;
+}
 
 /***MAIN-CLOSE***/
-/* responsive */
-/* @media (min-width: 768px ) and (max-width: 992px) {
-  #portfolio div.row > div[class*="col-"]:not( :last-child ) {
-    margin-right: 10px ;
-  }
-}*/
