@@ -58,6 +58,22 @@ section#about, section#form_contact, section#start, section#portfolio, #footer_t
 .ricamo {
   margin-bottom: 20px;
 }
+span.divider_custome_line + span::after {
+  display: inline-block;
+  content: "\e006";
+  vertical-align: bottom;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.divider_custome_line {
+  display: inline-block;
+  width: 100px;
+  height: 3px;
+  vertical-align: middle;
+  margin:0 15px;
+}
 
 .btn_outline_white {
   color: #f8f9fa;
@@ -105,22 +121,7 @@ img.avatar {
   font-size: 16px;
 }
 
-span.divider_custome_line + span::after {
-  display: inline-block;
-  content: "\e006";
-  vertical-align: bottom;
-  font-family: "Glyphicons Halflings";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-.divider_custome_line {
-  display: inline-block;
-  width: 100px;
-  height: 3px;
-  vertical-align: middle;
-  margin:0 15px;
-}
+
 /***HEADER-CLOSE***/
 /***MAIN***/
 /***section portfolio***/
@@ -196,3 +197,15 @@ footer h4 {
   background-color: #1a252f;
 }
 /***FOOTER-CLOSE***/
+/* responsive */
+@media (max-width: 778px ) {
+  .padding_50_right{
+    padding-right: 0px;
+  }
+  .padding_50_left {
+    padding-left: 0px;
+  }
+  .divider_custome_line {
+    width: 50px;
+  }
+}
