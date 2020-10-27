@@ -34,9 +34,21 @@ label {
 .bg_darkblu {
     background-color: #2c3e50;
 }
-
+.bg_white {
+  background-color: white;
+}
+.bg_black {
+  background-color: black;
+}
 .bg_green {
   background-color: #1abc9c;
+}
+
+section#about, section#form_contact, section#start, section#portfolio {
+  padding: 50px;
+}
+.ricamo {
+  margin-bottom: 20px;
 }
 /***HEADER***/
 header, header a {
@@ -70,7 +82,6 @@ span.divider_custome_line + span::after {
 .divider_custome_line {
   display: inline-block;
   width: 100px;
-  background-color: white;
   height: 3px;
   vertical-align: middle;
   margin:0 15px;
@@ -87,9 +98,19 @@ span.divider_custome_line + span::after {
 }
 #portfolio {
   padding-bottom: 15px;
+  color: black;
 }
-
 /***section-portfolio-CLOSE***/
+/***section about***/
+#about{
+  color: white;
+}
+#about_items div[class*="col-"] > p {
+  padding: 0 30px;
+  text-align: left;
+}
+/***section about-CLOSE***/
+
 /***MAIN-CLOSE***/
 /* responsive */
 /* @media (min-width: 768px ) and (max-width: 992px) {

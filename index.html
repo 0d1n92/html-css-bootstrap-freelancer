@@ -13,25 +13,30 @@
     <header class="bg_green">
       <nav class="navbar bg_darkblu">
           <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-        </div>
+        
       </nav>
       <!-- start cotainer -->
-      <div id="start" class="container">
+      <section id="start" class="container">
         <img class="avatar" src="img/avataaars.svg" alt="avatar">
         <h1 class="text-uppercase">Start Bootstrap</h1>
         <div class="ricamo">
-          <span class="divider_custome_line"></span>
+          <span class="divider_custome_line bg_white"></span>
           <span></span>
-          <span class="divider_custome_line"></span>
+          <span class="divider_custome_line bg_white"></span>
         </div>
         <p class="text-uppercase">Graphic Artist - Web Designer - Illustrator</p>
-      </div>
+      </section>
       <!-- /start cotainer -->
     </header>
   <main>
     <!-- container portfolio -->
     <section id="portfolio" class="container">
-      <h2>Portfolio</h2>
+      <h2 class="text-uppercase">Portfolio</h2>
+      <div class="ricamo">
+        <span class="divider_custome_line bg_black"></span>
+        <span></span>
+        <span class="divider_custome_line bg_black"></span>
+      </div>
       <div id="items_portfolio" class="row">
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <img src="img/cabin.png" alt="cabin">
@@ -55,16 +60,28 @@
     </section>
     <!-- /container portfolio -->
     <!-- container about -->
-    <div id="about" class="container bg_green">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6"></div>
-        <div class="col-xs-12 col-sm-6"></div>
+    <section id="about" class="bg_green">
+      <div class="container">
+        <h2 class="text-uppercase">about</h2>
+        <div class="ricamo">
+          <span class="divider_custome_line bg_white"></span>
+          <span></span>
+          <span class="divider_custome_line bg_white"></span>
+        </div>
+        <div id="about_items" class="row">
+          <div class="col-xs-12 col-sm-6">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          </div>
+        </div>
+        <a class="btn btn-lg btn-success " href="#">Download</a>
       </div>
-      <a href="#">Download</a>
-    </div>
+    </section>
     <!--/container about -->
     <!-- container form -->
-    <div id="form-contact" class="container">
+    <section id="form_contact" class="container">
       <h2>Contact me</h2>
       <form class="" action="index.html" method="post">
         <label for="name">Name</label>
@@ -79,7 +96,7 @@
         <textarea id="message" name="message" placeholder="Message"></textarea>
         <input type="submit" value="Send">
       </form>
-    </div>
+    </section>
     <!--/container form -->
    </main>
    <footer>
