@@ -180,6 +180,13 @@ footer h4 {
 }
 /***footer top***/
 
+.fa-facebook-f, .fa-twitter,.fa-linkedin-in,.fa-google-plus-g {
+  width:9.6px;
+  height: 10px;
+}
+.radius{
+  border-radius: 100% !important;
+}
 
 /***footer top-CLOSE***/
 #footer_bottom {
