@@ -52,7 +52,7 @@ label {
   background-color: #1abc9c;
 }
 
-section#about, section#form_contact, section#start, section#portfolio {
+section#about, section#form_contact, section#start, section#portfolio, #footer_top {
   padding: 50px;
 }
 .ricamo {
@@ -169,5 +169,23 @@ span.divider_custome_line + span::after {
 .contact_me textarea {
   min-height: 200px;
 }
-
 /***MAIN-CLOSE***/
+/***FOOTER***/
+footer {
+  color: white;
+}
+footer h4 {
+  font-size: 1.3em;
+  font-weight: 400 !important;
+}
+/***footer top***/
+
+
+/***footer top-CLOSE***/
+#footer_bottom {
+  height: 80px;
+  line-height: 70px;
+  vertical-align: middle;
+  background-color: #1a252f;
+}
+/***FOOTER-CLOSE***/
