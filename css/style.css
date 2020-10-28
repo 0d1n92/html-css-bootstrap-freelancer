@@ -153,15 +153,24 @@ img.avatar {
 .wrap_relative{
  position: relative;
 }
+.cover_img i{
+  position: relative;
+  top:40%;
+}
 .cover_img {
+  width: 100%;
+  display: none;
+  vertical-align: middle;
   position: absolute;
   border-radius: 15px;
-  width: 100%;
+  font-size: 70px;
+  color: white;
   top:0;
   height: 100%;
 }
 .wrap_relative:hover .cover_img{
-  background-color: aqua;
+  display: block;
+  background-color: rgba(26, 188, 156, 0.9);
   z-index: 1;
 }
 
