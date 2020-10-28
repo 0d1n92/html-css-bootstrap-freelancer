@@ -6,6 +6,11 @@
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /****font-CLOSE***/
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /***debug***/
 .debug header.container {
   height: 500px;
@@ -63,6 +68,7 @@ span.divider_custome_line + span::after {
   content: "\e006";
   vertical-align: bottom;
   font-family: "Glyphicons Halflings";
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -95,9 +101,9 @@ span.divider_custome_line + span::after {
   color: white;
 }
 .btn_green:hover {
-  color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  color: white !important;
+  background-color: #159a80 !important;
+  border-color: #148f77 !important;
 }
 
 
@@ -114,23 +120,28 @@ nav {
   text-align: left;
 }
 
-
-#nav_items a {
-  line-height: 50px;
-  vertical-align: middle;
-}
 a#title_navbar {
   margin-right: 150px;
   height: 80px;
   line-height: 80px;
+
+}
+#title_navbar h4 {
+  vertical-align: middle;
+  transform: translateY(50%);
+}
+#nav_items a {
+  line-height: 50px;
   vertical-align: middle;
 }
+/***section start***/
 section#start {
   margin-top: 80px;
 }
 img.avatar {
   width: 240px;
 }
+
 #start h1 {
   font-size: 2.60em;
 }
@@ -155,11 +166,11 @@ img.avatar {
 }
 .cover_img i{
   position: relative;
-  top:35%;
+  top:50%;
+  transform: translateY(-50%);
 }
 .cover_img {
   width: 100%;
-  display: none;
   vertical-align: middle;
   position: absolute;
   border-radius: 15px;
@@ -229,6 +240,10 @@ footer h4 {
 }
 .radius{
   border-radius: 100% !important;
+}
+
+#footer_top p a {
+  color: #148f77;
 }
 
 /***footer top-CLOSE***/
