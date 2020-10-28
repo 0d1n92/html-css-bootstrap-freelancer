@@ -143,12 +143,28 @@ img.avatar {
 /***MAIN***/
 /***section portfolio***/
 #items_portfolio img {
+  display: block;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
   border-radius: 15px;
   margin-bottom: 20px;
 }
+.wrap_relative{
+ position: relative;
+}
+.cover_img {
+  position: absolute;
+  border-radius: 15px;
+  width: 100%;
+  top:0;
+  height: 100%;
+}
+.wrap_relative:hover .cover_img{
+  background-color: aqua;
+  z-index: 1;
+}
+
 #portfolio {
   padding-bottom: 15px;
   color: black;
