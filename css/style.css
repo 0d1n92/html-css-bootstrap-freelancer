@@ -171,6 +171,7 @@ img.avatar {
 }
 .cover_img {
   width: 100%;
+  display: none;
   vertical-align: middle;
   position: absolute;
   border-radius: 15px;
